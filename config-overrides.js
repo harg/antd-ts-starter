@@ -30,6 +30,10 @@ module.exports = function override(config, env) {
     }
   })(config, env);
 
+  // MobX
+  const rewireMobX = require('react-app-rewire-mobx');
+  config = rewireMobX(config, env);
+
   const path = require('path');
   // For import with absolute path
   config.resolve.modules = [path.resolve('src')].concat(config.resolve.modules);

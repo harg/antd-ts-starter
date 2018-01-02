@@ -16,6 +16,7 @@
       "dom"
     ],
     "sourceMap": true,
+    "experimentalDecorators": true,
     "allowJs": true,
     "jsx": "preserve",
     "moduleResolution": "node",
@@ -23,7 +24,7 @@
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "strictNullChecks": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true
